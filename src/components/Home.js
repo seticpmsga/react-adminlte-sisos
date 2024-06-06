@@ -4,6 +4,7 @@ function Home() {
         <div>
             {/* Content Wrapper. Contains page content */}
             <div className="content-wrapper">
+
                 {/* Content Header (Page header) */}
                 <div className="content-header">
                     <div className="container-fluid">
@@ -21,10 +22,12 @@ function Home() {
                     </div>{/* /.container-fluid */}
                 </div>
                 {/* /.content-header */}
+
                 {/* Main content */}
                 <section className="content">
                     <div className="container-fluid">
-                        {/* Small boxes (Stat box) */}
+                        
+                        {/* Small boxes (Stat box) - [New Orders, Bounce Rate, User Registrations, Unique Visitors]*/}
                         <div className="row">
                             <div className="col-lg-3 col-6">
                                 {/* small box */}
@@ -84,8 +87,10 @@ function Home() {
                             {/* ./col */}
                         </div>
                         {/* /.row */}
+
                         {/* Main row */}
                         <div className="row">
+
                             {/* Left col */}
                             <section className="col-lg-7 connectedSortable">
                                 {/* Custom tabs (Charts with tabs)*/}
@@ -439,8 +444,10 @@ function Home() {
                                 {/* /.card */}
                             </section>
                             {/* /.Left col */}
+
                             {/* right col (We are only adding the ID to make the widgets sortable)*/}
                             <section className="col-lg-5 connectedSortable">
+
                                 {/* Map card */}
                                 <div className="card bg-gradient-primary">
                                     <div className="card-header border-0">
@@ -485,6 +492,7 @@ function Home() {
                                     </div>
                                 </div>
                                 {/* /.card */}
+
                                 {/* solid sales graph */}
                                 <div className="card bg-gradient-info">
                                     <div className="card-header border-0">
@@ -528,6 +536,7 @@ function Home() {
                                     {/* /.card-footer */}
                                 </div>
                                 {/* /.card */}
+
                                 {/* Calendar */}
                                 <div className="card bg-gradient-success">
                                     <div className="card-header border-0">
@@ -566,8 +575,10 @@ function Home() {
                                     {/* /.card-body */}
                                 </div>
                                 {/* /.card */}
+                                
                             </section>
                             {/* right col */}
+                            
                         </div>
                         {/* /.row (main row) */}
                     </div>{/* /.container-fluid */}
