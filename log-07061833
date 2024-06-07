@@ -1,0 +1,42 @@
+[33mcommit 134f3b21f08ff282212a44c3951673815a1f3b32[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: seticpmsga <gerencia.setic@gmail.com>
+Date:   Fri Jun 7 13:18:53 2024 -0300
+
+    Modificação da posição do calendário. Impelmentar página em branco.
+
+[33mcommit 69fd4d968c952f56ed6913dfe6479e3ef76e0a00[m
+Author: seticpmsga <gerencia.setic@gmail.com>
+Date:   Fri Jun 7 13:08:38 2024 -0300
+
+    identificação dos componentes e remoção dos que não ção necessários - 1
+
+[33mcommit fe668bcb68cb2747384d2abb4f9ef242b625452b[m
+Author: seticpmsga <gerencia.setic@gmail.com>
+Date:   Thu Jun 6 13:38:38 2024 -0300
+
+    Commit com a identificação inicial dos componentes.
+
+[33mcommit afc06fc63b1375afaf433a53c827cd0094a65c4f[m
+Merge: c36d4f4 0b415f1
+Author: seticpmsga <gerencia.setic@gmail.com>
+Date:   Thu Jun 6 10:01:16 2024 -0300
+
+    Commit para ajuste de arquivos antes do primeiro envio.
+
+[33mcommit c36d4f412c3f9eec7ee1c2f1cee7e9d0891202d7[m
+Author: setic <gerencia.setic@gmail.com>
+Date:   Thu Jun 6 08:26:28 2024 -0300
+
+    Primeiro commit antes de envio ao GitHub
+
+[33mcommit 0b415f1f9042f2d96394aa2726f8e0e72608b136[m
+Author: seticpmsga <113468256+seticpmsga@users.noreply.github.com>
+Date:   Wed Jun 5 13:49:13 2024 -0300
+
+    Initial commit
+
+[33mcommit c454d49a00c951652ab45f37ee8aa7c44945918a[m
+Author: michaeljb73 <michaeljb73@gmail.com>
+Date:   Tue Apr 2 08:54:07 2024 -0300
+
+    Initialize project using Create React App
