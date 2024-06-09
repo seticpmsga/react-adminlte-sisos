@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom";
 
 function SideNav() {
+    let navigate = useNavigate()
     return (
         <div>
             {/* Main Sidebar Container */}
@@ -36,7 +38,7 @@ function SideNav() {
                         <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                             {/* Add icons to the links using the .nav-icon class with font-awesome or any other icon font library */}
                             <li className="nav-item">
-                                <a href="./index.html" className="nav-link active">
+                                <a href="#" className="nav-link active" onClick={() => { navigate("/") }}>
                                     {/* <i className="far fa-circle nav-icon" /> */}
                                     <i className="fas fa-regular fa-chart-line nav-icon" />
                                     <p>Dashboard</p>
@@ -46,11 +48,11 @@ function SideNav() {
                                 <a href="#" className="nav-link">
                                     {/* <i className="nav-icon fas fa-tachometer-alt" /> */}
                                     <i className="fab fa-wpforms nav-icon"></i>
-                                    <p>Cadastros<i className="right fas fa-angle-left" /></p>
+                                    <p>Gerenciamento<i className="right fas fa-angle-left" /></p>
                                 </a>
                                 <ul className="nav nav-treeview">
                                     <li className="nav-item">
-                                        <a href="./index.html" className="nav-link">
+                                        <a href="#" className="nav-link" onClick={() => { navigate("/ordenservico") }}>
                                             <i className="far fa-circle text-danger nav-icon" />
                                             <p>Ordem de Serviço</p>
                                         </a>
@@ -65,6 +67,12 @@ function SideNav() {
                                         <a href="./index3.html" className="nav-link">
                                             <i className="far fa-circle text-info nav-icon" />
                                             <p>Tipo de Serviço</p>
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a href="./index3.html" className="nav-link">
+                                            <i className="far fa-circle nav-icon" style={{ color: "#9C27B0"}}/>
+                                            <p>Dados do Órgão</p>
                                         </a>
                                     </li>
                                 </ul>
